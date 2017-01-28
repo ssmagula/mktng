@@ -28,7 +28,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #e2b126; /* SMAG was #fed136 */
+  color: #F5A023; /*  SMAG was #e2b126; was #fed136 */
 }
 a:hover,
 a:focus,
@@ -56,7 +56,7 @@ h6 {
   background-color: #222222;
 }
 .btn-primary {
-  color: white;
+  color: #222222;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -100,7 +100,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-xl {
-  color: white;
+  color: #333;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -188,14 +188,18 @@ fieldset[disabled] .btn-xl.active {
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
-  border-radius: 0;
-  color: white;
-  background-color: #fed136;
+  /* border-radius: 0; */
+  color: #fec503;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fec503;
+  border-radius: 4px;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #fec503;
+  color: #fec503;
+  background-color: transparent; /* #fec503 */
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -674,12 +678,14 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
+  text-align: left;
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
+  text-align: center;
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
@@ -690,19 +696,19 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .close-modal {
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   background-color: transparent;
   top: 25px;
   right: 25px;
   cursor: pointer;
 }
 .portfolio-modal .close-modal:hover {
-  opacity: 0.3;
+  opacity: .4;
 }
 .portfolio-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
+  height: 35px;
+  width: 2px;
   margin-left: 35px;
   background-color: #222222;
   transform: rotate(45deg);
@@ -713,8 +719,8 @@ ul.social-buttons li a:active {
   z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
+  height: 35px;
+  width: 2px;
   background-color: #222222;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -724,7 +730,7 @@ ul.social-buttons li a:active {
   z-index: 1052;
 }
 .portfolio-modal .modal-backdrop {
-  opacity: 0;
+  opacity: .0;
   display: none;
 }
 ::-moz-selection {
