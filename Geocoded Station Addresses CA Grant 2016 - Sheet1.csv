@@ -1,0 +1,24 @@
+Station Name,Street Address,Latitude,Longitude,Precision
+HydrogeNXT Arcadia,"4 W Foothill Arcadia, CA 91006-2300",34.150599,-118.032142,Rooftop
+HydrogeNXT Arroyo Grande,"100 Barnett St., Arroyo Grande, CA 93420-2603",35.120964,-120.585847,Rooftop
+HydrogeNXT Boron,"12366 Boron Ave, Boron, CA 93516",35.004244,-117.64938,Rooftop
+HydrogeNXT Buellton,"230 E Hwy 246 Buellton, CA 93427-9654",34.610571,-120.187331,Rooftop
+HydrogeNXT Chula Vista,"4498 Bonita Rd, Chula Vista, CA 91902-1425",32.660808,-117.031575,Rooftop
+HydrogeNXT City of Industry,"1010 Fairway Dr, City of Industry, CA 91789-2810",33.997131,-117.870023,Rooftop
+HydrogeNXT El Cajon,"1518 Magnolia Ave, El Cajon, CA 92020-1240",32.818664,-116.962851,Rooftop
+HydrogeNXT Fontana,"16125 Baseline Ave., Fontana, CA 92336-1901",34.120897,-117.452952,Rooftop
+HydrogeNXT Fresno,"4994 E Ashlan Ave., Fresno, CA 93726-3098",36.794081,-119.727915,Range Interpolated
+HydrogeNXT Gorman,"49715 Gorman School Rd., Gorman, CA 93243",34.793972,-118.851759,Rooftop
+HydrogeNXT Lakewood,"6819 Carson St, Lakewood, CA 90713-3310",33.832701,-118.099309,Rooftop
+HydrogeNXT Long Beach,"3605 E.7th, Long Beach, CA 90804-5244",33.775649,-118.149972,Rooftop
+HydrogeNXT Morro Bay,"1860 Main St., Morro Bay, CA 93442-1631",35.381062,-120.854937,Rooftop
+HydrogeNXT Olancha,"601 South Highway 395, Olancha, CA 93549",36.273813,-118.002528,Rooftop
+HydrogeNXT Tierrasanta,"10821 Tierrasanta Blvd., San Diego, CA 92124-2617",32.821301,-117.098318,Rooftop
+HydrogeNXT Hollister,"1102 Hollister St., San Diego, CA 92154-3101",32.576208,-117.08446,Rooftop
+HydrogeNXT El Cajon Blvd,"3154 El Cajon Blvd., San Diego, CA 92104-1328",32.755742,-117.126108,Rooftop
+HydrogeNXT Miramar,"6616 Miramar Rd., San Diego, CA 92121-2509",32.878184,-117.172137,Rooftop
+HydrogeNXT San Leandro,"500 Bancroft Ave., San Leandro, CA 94577-2024",37.735377,-122.151993,Rooftop
+HydrogeNXT Santa Ana,"2120 McFadden Ave., Santa Ana, CA 92705-4707",33.733399,-117.836306,Rooftop
+HydrogeNXT Spring Valley,"11906 Campo Rd., Spring Valley, CA 91978-2202",32.739402,-116.946222,Range Interpolated
+HydrogeNXT Vista,"1403 S Santa Fe Ave., Vista, CA 92083-7233",33.184506,-117.223297,Rooftop
+HydrogeNXT Yermo,"35555 Ghost Town Rd., Yermo, CA 92398",34.904067,-116.886401,Rooftop
