@@ -571,13 +571,13 @@ section#contact .form-group {
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+  padding: 16px;
 }
 section#contact .form-group input.form-control {
   height: auto;
 }
 section#contact .form-group textarea.form-control {
-  height: 236px;
+  height: 200px;
 }
 section#contact .form-control:focus {
   border-color: #fed136;
@@ -586,8 +586,8 @@ section#contact .form-control:focus {
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
-  color: #eeeeee;
+  font-weight: 400;
+  color: #959797;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
