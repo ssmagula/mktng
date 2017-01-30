@@ -559,7 +559,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  /* background-image: url('../img/map-image.png'); */
+  /* background-image: url('../img/map-img.png');  Smag: not worth the weight */;
   background-position: center;
   background-repeat: no-repeat;
 }
