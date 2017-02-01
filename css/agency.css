@@ -100,7 +100,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-xl {
-  color: #333;
+  color: #222;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -201,6 +201,7 @@ fieldset[disabled] .btn-xl.active {
   color: #fec503;
   background-color: transparent; /* #fec503 */
 }
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -212,7 +213,7 @@ fieldset[disabled] .btn-xl.active {
 	font-size: 12px;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    font-size: 2.3em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -224,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #222222;
-    padding: 5px 0;
+    padding: 5px 0; 
 	font-size: 11px;
   }
   .navbar-custom.affix .navbar-brand {
@@ -262,6 +263,15 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 15px;
 }
+
+@media (max-width: 380px) { /* SMAG: optimizing for mobile sizes */
+  header .intro-text .intro-heading {
+      font-size: 40px;
+      line-height: 37px;
+      margin-bottom: 25px;	  
+  }
+}
+
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 200px;
