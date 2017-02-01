@@ -114,7 +114,8 @@ fieldset[disabled] .btn-primary.active {
 
 @media (max-width: 414px) {       /* SMAG: optimizing button for iPhone 6+ and smaller */
      .btn-xl {
-		 margin: 90px 0px;
+		 margin-top: 30px;
+		 margin-bottom: 70px;     /* SMAG: This displays more of the hero image on iPhone 5 sizes and smaller */
 	     padding: 10px 20px;	  
   }
 }
