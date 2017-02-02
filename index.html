@@ -788,40 +788,32 @@
 	
 	
 	<!-- New Modal Testing-->
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" 
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stationModal" 
 		data-name="Arroyo Vista" 
-		data-description="Our favorite description for Arroyo!" 
+		data-description="his station is located consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!" 
 		data-imageurl="http://placehold.it/450x200/fed135/aeaeae&text=Hey Arroyo Vista">View Arroyo Vista Station Modal</button>
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" 
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stationModal" 
 		data-name="Berkeley, CA"
-		data-description="Our favorite description for Berkeley!"
+		data-description="his station is located consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
 		data-imageurl="http://placehold.it/450x200/fed135/ffffff&text=Hey Berkeley, CA">View Berkeley, CA</button>
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" 
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stationModal" 
 		data-name="City of Industry"
-		data-description="Our favorite description for Industry!" 
+		data-description="his station is located consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!" 
 		data-imageurl="http://placehold.it/450x200/fed135/ffffff&text=Hey City of Industry">View City of Industry</button>
 
-	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" id="stationModal" tabindex="-1" role="dialog" aria-labelledby="stationModalLabel" aria-hidden="true">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <h5 class="modal-title" id="exampleModalLabel"></h5> <!-- Smag: modal js will insert title here-->
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
+	          <span aria-hidden="true" style="font-size:2em;">&times;</span>
 	        </button>
+			<h3 class="modal-title" id="exampleModalLabel"></h3> <!-- Smag: modal js will insert title here-->
 	      </div>
 	      <div class="modal-body">
-			<img class="img-responsive" id="image" src="" alt="" longdescrip="static longdescrip">  
-	        <form>
-	          <div class="form-group">
-	            <label for="recipient-name" class="form-control-label">Recipient:</label>
-	            <input type="text" class="form-control" id="recipient-name"><!-- Smag: modal js will insert title here-->
-	          </div>
-	          <div class="form-group">
-	            <label for="message-text" class="form-control-label">Body:</label>
-	            <textarea class="form-control" id="message-text"><!-- Smag: modal js will insert title here--></textarea>
-	          </div>
-	        </form>
+			<img class="img-responsive" id="image" src="" alt="" longdescrip="static longdescrip">
+			<p class="text-muted" id="descrip"></p>  
+			<i></i>
 	      </div>
 	      <div class="modal-footer">
 	        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
