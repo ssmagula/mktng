@@ -169,7 +169,7 @@
                                 <i class="fa fa-plus fa-3x"></i><br><span>More info</span>
                             </div>
                         </div>
-                        <img src="img/portfolio/station_dusk_398_289.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/station_dusk_398_289.jpg" class="img-responsive" alt="HydrogeNXT Station">
                     </a>
                     
 					<div class="portfolio-caption">
@@ -787,34 +787,49 @@
     </div>
 	
 	
-	<!-- Modal Testing-->
-	<div class="modal fade" id="newModal1" tabindex="-1" role="dialog" aria-labelledby="newModal1">
+	<!-- New Modal Testing-->
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" 
+		data-name="Arroyo Vista" 
+		data-description="Our favorite description for Arroyo!" 
+		data-imageurl="http://placehold.it/200x200/dddddd/ffffff&text=Hey1">View Arroyo Vista Station Modal</button>
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" 
+		data-name="Berkeley, CA"
+		data-description="Our favorite description for Berkeley!">View Berkeley, CA</button>
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" 
+		data-name="City of Industry"
+		data-description="Our favorite description for Industry!">View City of Industry</button>
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	        <h4 class="modal-title" id="myModalLabel">Get rid of me</h4>
+	        <h5 class="modal-title" id="exampleModalLabel"></h5> <!-- Smag: modal js will insert title here-->
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
 	      </div>
 	      <div class="modal-body">
-              <!-- Station Details Go Here -->
-              <h3>Modal Love</h3>
-              <p class="item-intro text-muted">Planned to be complete in early 2018</p>
-              <img class="img-responsive img-centered" src="img/portfolio/map_LA_600x450.png" alt="">						
-			<p>This station is located consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus 				dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, 				nostrum, reiciendis facere nemo!</p>
-              <ul class="list-inline">
-                  <li>Anticipated opening: Feb 2018</li>
-                  <li>Capacity: 200 kg/day</li>
-              </ul>
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close Station Detail</button>
+			<img class="img-responsive" id="image" src="" alt="" longdescrip="static longdescrip">  
+	        <form>
+	          <div class="form-group">
+	            <label for="recipient-name" class="form-control-label">Recipient:</label>
+	            <input type="text" class="form-control" id="recipient-name"><!-- Smag: modal js will insert title here-->
+	          </div>
+	          <div class="form-group">
+	            <label for="message-text" class="form-control-label">Body:</label>
+	            <textarea class="form-control" id="message-text"><!-- Smag: modal js will insert title here--></textarea>
+	          </div>
+	        </form>
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	        <button type="button" class="btn btn-primary">Save changes</button>
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Send message</button>
 	      </div>
 	    </div>
 	  </div>
 	</div>
-	<!-- END Modal Testing-->
+
+	<!-- END New Modal Testing-->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -829,8 +844,9 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
-    <!-- Theme JavaScript -->
+    <!-- Theme JavaScript includes the single modal js to use one modal with many stations -->
     <script src="js/agency.min.js"></script>
+
 
 </body>
 
