@@ -776,3 +776,42 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+/* SMAG adding article and list view styles here */
+
+
+
+.news .flytitle {
+    color: #FB4C13;
+	font-weight:700;
+	margin-bottom: -10px;
+	margin-top: 40px;
+}
+.news .title{
+	font-weight: 700;
+}
+.news .dek{
+	font-weight: 400;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+.news .body {
+	padding-top: 30px;
+    line-height: 1.6em;
+}
+.news .article {
+	float: left;
+}
+.news .sidebar {
+	margin-top: 150px;
+    line-height: 1.3em;
+}
+.news .article-list {
+	padding-top: 30px;
+	
+}
+.news .article-list li {
+	text-align:left;
+	padding-bottom: 10px;
+	
+}
