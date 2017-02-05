@@ -84,8 +84,8 @@
             <div class="intro-text">                
                 <div class="intro-heading">Let's get there faster</div> <!-- SMAG alternates: Get Energized; Join the energy revolution; The power to move you; Get there faster -->
 				<div class="intro-lead-in">Powering fuel cell electric cars with clean hydrogen</div>
-                <a href="#what" class="page-scroll btn btn-xl">Learn More</a>
-            </div>
+                <button type="button" data-toggle="modal" data-target="#emailModal" data-message="Hello message here" class="page-scroll btn btn-xl">Be the first to know</button>
+			</div>
         </div>
     </header>
 
@@ -113,7 +113,7 @@
                         <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">No Range Anxiety</h4>
-                    <p class="text-muted">Our patented reservation system means you're assured hydrogen across our network of stations. Say adios, so long, sayonara to range anxiety. </p><a href="https://vimeo.com/202472716" class="page-scroll btn btn-primary" style="margin-bottom:60px">About Reservations</a>
+                    <p class="text-muted">Our patented mobile app reservation system means you're assured hydrogen at our stations. Say adios, so long, sayonara to range anxiety. </p><a href="https://vimeo.com/202472716" class="page-scroll btn btn-primary" style="margin-bottom:60px">Watch Mobile Reservations Video</a>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -121,7 +121,7 @@
                         <i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Brighter, Cleaner Future</h4>
-                    <p class="text-muted">Electric fuel cell cars and hydrogen are driving us towards a brighter, cleaner future. With clean and reliable hydrogen, we'll get there faster. </p><a href="#" class="page-scroll btn btn-primary" style="margin-bottom:60px">Watch Video</a>
+                    <p class="text-muted">Electric fuel cell cars and hydrogen are driving us towards a brighter, cleaner future. With clean and reliable hydrogen, we'll all get there faster. </p><button class="btn btn-primary" style="margin-bottom:60px" data-toggle="modal" data-target="#emailModal" data-message="Hello message here">Sign up for newsletter</button>
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">HydrogeNXT Stations</h2>
-                    <h3 class="section-subheading text-muted">Soon you'll be able to drive from Chula Vista to Lake Tahoe powered by clean and green HydrogeNXT</h3>
+                    <h3 class="section-subheading text-muted">Soon you'll be able to drive from Baja California to Lake Tahoe powered by clean and green HydrogeNXT</h3>
                 </div>
             </div>
 			<div class ="row">
@@ -155,7 +155,7 @@
 					 <span class="fa-stack fa-1x">
                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
                        <i class="fa fa-car fa-stack-1x fa-inverse"></i>
-                     </span> Live traffic in yellow </p>
+                     </span> Traffic in yellow </p>
 				</div>
 			</div>
             <div class="col-lg-12 text-center">
@@ -644,6 +644,37 @@
 	</div>
 
 	<!-- END New Modal Window-->
+	
+	<!-- BEGIN email modal -->
+	<div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:2em;">&times;</span></button>
+	        <h3 class="modal-title" id="emailModalLabel">Sign up for our newsletter</h3>
+			<p>BE THE FIRST to learn about our mobile apps for reserving hydrogen, promotions, and station grand openings. We'll only send occasional updates and you can opt out anytime. Together we'll get there faster. <a href="#">Privacy policy</a>.
+			</p>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+	          <div class="form-group">
+	            <label for="recipient-name" class="control-label">Your email:</label>
+	            <input type="text" class="form-control" id="recipient-name">
+	          </div>
+	          <div class="form-group">
+	            <label for="message-text" class="control-label">Why you're excited (totally optional):</label>
+	            <textarea class="form-control" id="message-text"></textarea>
+	          </div>
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+	        <button type="button" class="btn btn-primary">Join the HydrogeNXT Revolution</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- END email modal -->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>

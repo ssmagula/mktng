@@ -84,7 +84,7 @@
     <section class="news">
 		        <div class="container"> 
 					<div class="row">
-					<div class="article col-md-6 col-md-offset-2">
+					<div class="article col-lg-6 col-lg-offset-2 col-sm-6 col-sm-offset-2">
 					<div class="flytitle">Breaking the habit</div>
 					<div class="title h1">The future of oil</div>
 					<div class="dek">The world’s use of oil is approaching a tipping-point, writes Robert Wise</div>
@@ -131,7 +131,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">What we do</h2>
-                    <h3 class="section-subheading text-muted">Charge your fuel cell electric car in 3 minutes, using hydrogen produced on-site from natural gas and biogas.</h3>
+                    <h3 class="section-subheading text-muted">Charge your electric car in 3 minutes, using hydrogen produced on-site from natural gas and biogas.</h3>
                 </div>
             </div>
             <div class="row text-center">
@@ -149,7 +149,7 @@
                         <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">No Range Anxiety</h4>
-                    <p class="text-muted">Our patented reservation system means you're assured hydrogen across our network of stations. Say adios, so long, sayonara to range anxiety. </p><a href="#" class="page-scroll btn btn-primary" style="margin-bottom:60px">About Reservations</a>
+                    <p class="text-muted">Our patented mobile app reservation system means you're assured hydrogen at our stations. Say adios, so long, sayonara to range anxiety. </p><a href="https://vimeo.com/202472716" class="page-scroll btn btn-primary" style="margin-bottom:60px">Watch Mobile Reservations Video</a>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -157,7 +157,7 @@
                         <i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Brighter, Cleaner Future</h4>
-                    <p class="text-muted">Electric fuel cell cars and hydrogen are driving us towards a brighter, cleaner future. With clean and reliable hydrogen, we'll get there faster. </p><a href="#" class="page-scroll btn btn-primary" style="margin-bottom:60px">Watch Video</a>
+                    <p class="text-muted">Electric fuel cell cars and hydrogen are driving us towards a brighter, cleaner future. With clean and reliable hydrogen, we'll all get there faster. </p><button class="btn btn-primary" style="margin-bottom:60px" data-toggle="modal" data-target="#emailModal" data-message="Hello message here">Sign up for newsletter</button>
                 </div>
             </div>
         </div>
@@ -218,7 +218,38 @@
 	  </div>
 	</div>
 
-	<!-- END New Modal Window-->
+	<!-- END Station Modal Window-->
+	
+	<!-- BEGIN email modal -->
+	<div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="font-size:2em;">&times;</span></button>
+	        <h3 class="modal-title" id="emailModalLabel">Sign up for our newsletter</h3>
+			<p>BE THE FIRST to learn about our mobile apps for reserving hydrogen, promotions, and station grand openings. We'll only send occasional updates and you can opt out anytime. Together we'll get there faster. <a href="#">Privacy policy</a>.
+			</p>
+	      </div>
+	      <div class="modal-body">
+  	        <form>
+  	          <div class="form-group">
+  	            <label for="recipient-name" class="control-label">Your email:</label>
+  	            <input type="text" class="form-control" id="recipient-name">
+  	          </div>
+  	          <div class="form-group">
+  	            <label for="message-text" class="control-label">Why you're excited (totally optional):</label>
+  	            <textarea class="form-control" id="message-text"></textarea>
+  	          </div>
+  	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Join the HydrogeNXT Revolution</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- END email modal -->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
