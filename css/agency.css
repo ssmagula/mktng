@@ -779,7 +779,9 @@ body {
 
 /* SMAG adding article and list view styles here */
 
-
+.news-nav {
+	background-color: #222222;
+}
 
 .news .flytitle {
     color: #FB4C13;
@@ -797,7 +799,7 @@ body {
 }
 .news .body {
 	padding-top: 30px;
-    line-height: 1.6em;
+    line-height: 1.75em;
 }
 .news .article {
 	float: left;
